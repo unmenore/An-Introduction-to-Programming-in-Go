@@ -11,5 +11,9 @@ func add(args ...int) int {
 }
 
 func main() {
-	fmt.Println((add(1, 2, 3)))
+	// sx := []int{1, 2, 3}
+	// fmt.Println((add(sx)))
+	fmt.Println((add(2, 3, 4, 5)))
 }
+
+// func Println(a ...interface{}) (n int, err error)
